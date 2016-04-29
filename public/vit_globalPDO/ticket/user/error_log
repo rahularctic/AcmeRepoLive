@@ -1,0 +1,18 @@
+[17-May-2015 07:20:30 America/Denver] PHP Notice:  Undefined index: EVENTEND in /home1/blueharl/public_html/vitee/vit/ticket/user/get_tickets.php on line 57
+[17-May-2015 07:20:35 America/Denver] PHP Notice:  Undefined index: EVENTEND in /home1/blueharl/public_html/vitee/vit/ticket/user/get_tickets.php on line 57
+[17-May-2015 07:20:37 America/Denver] PHP Notice:  Undefined index: EVENTEND in /home1/blueharl/public_html/vitee/vit/ticket/user/get_tickets.php on line 57
+[17-May-2015 07:20:43 America/Denver] PHP Notice:  Undefined index: EVENTEND in /home1/blueharl/public_html/vitee/vit/ticket/user/get_tickets.php on line 57
+[25-May-2015 00:46:36 America/Denver] PHP Parse error:  syntax error, unexpected '$end' (T_VARIABLE) in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php on line 50
+[25-May-2015 00:48:19 America/Denver] PHP Parse error:  syntax error, unexpected '$end' (T_VARIABLE) in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php on line 50
+[28-May-2015 02:51:13 America/Denver] PHP Parse error:  syntax error, unexpected 'EVENTSTART' (T_STRING) in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php on line 76
+[28-May-2015 02:51:16 America/Denver] PHP Parse error:  syntax error, unexpected 'EVENTSTART' (T_STRING) in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php on line 76
+[28-May-2015 02:52:38 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string ($s) at position 0 ($): Unexpected character' in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php:72
+Stack trace:
+#0 /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php(72): DateTime->__construct('$s')
+#1 {main}
+  thrown in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php on line 72
+[28-May-2015 02:52:38 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string ($s) at position 0 ($): Unexpected character' in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php:72
+Stack trace:
+#0 /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php(72): DateTime->__construct('$s')
+#1 {main}
+  thrown in /home1/blueharl/public_html/vitee/vit/ticket/user/check_hashkey.php on line 72

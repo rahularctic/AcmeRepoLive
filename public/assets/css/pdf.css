@@ -1,0 +1,19 @@
+
+table {
+    display: table;
+}
+trr {
+    display: table-row;
+}
+highlight {
+    background-color: greenyellow;
+    display: table-cell;
+}
+td {
+
+    display: table-cell;
+}
+th {
+
+    display: table-header-group;
+}

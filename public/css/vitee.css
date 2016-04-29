@@ -1,0 +1,172 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+}
+body{
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+/* =====================================================================================================================================================
+------------------------------------------------------- HEADER  ----------------------------------------------------------------------------------------
+========================================================================================================================================================*/
+#top-container{
+  background-color: #027298;
+}
+#top-bar{
+  height: 80px;
+}
+#menu-nav{
+  margin-top: 11px;
+}
+a {
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  margin-right: 4%;
+  padding-bottom: 9px;
+}
+.current {
+  color: rgba(255,255,255,1);
+  border-bottom: 3px solid #01afd2;
+}
+.settings{
+  float: right;
+  margin-top: -2px;
+}
+#viteeLogo{
+  margin-top: 10px;
+}
+.img-circle {
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-right: 8%;
+  float: right;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+
+/* =====================================================================================================================================================
+--------------------------------------------------------- MAIN  ----------------------------------------------------------------------------------------
+========================================================================================================================================================*/
+#content-main{
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 34px -11px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 10px 34px -11px rgba(0,0,0,0.05);
+  box-shadow: 0px 10px 34px -11px rgba(0,0,0,0.05);
+}
+.btn-orange{
+  color: #FFF;
+  margin-top: 10px;
+  font-weight: 600;
+  width: 220px;
+  height: 52px;
+  border-radius: 0;
+  background-color: #F47932;
+  font-size: 18px;
+  border: none;
+}
+.create_btn_group{
+  margin-top: 10px;
+}
+.side-nav, a{
+  color: #929aab;
+  margin-left: 2px;
+}
+.side-nav, a:hover{
+  text-decoration: none;
+}
+.current-side, a{
+  color: #01afd2;
+}
+ul, li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+.nav{
+  padding-left: 30px;
+}
+.nav>li>a {
+  position: relative;
+  display: inline;
+  padding: 10px 15px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #01afd2;
+  background-color: transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+  background-color: transparent;
+  color: #01afd2;
+}
+
+form>.row>.col-md-7>h1{
+  color: #34495e;
+  padding: 0px 12px 50px 12px;
+}
+/* =====================================================================================================================================================
+--------------------------------------------------------- FORM  ----------------------------------------------------------------------------------------
+========================================================================================================================================================*/
+.form-group>.row>.col-md-2>label{
+  color: #929aab;
+  float: right;
+  height: 54px;
+  padding: 12px 12px;
+  font-weight:400;
+}
+.form-cantrol {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-bottom: 1px solid #34495e;
+  margin-bottom: 20px;
+}
+.form-cantrol:focus {
+  outline: none;
+  border-bottom: 1px solid #01afd2;
+}
+textarea.form-cantrol {
+  height: auto;
+  max-width: 100%;
+}
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  background-color: transparent !important;
+}
+.savebtn {
+  font-weight: 600;
+  float: right;
+  background-color: transparent;
+  color: #F47932;
+  border: none;
+  margin-bottom: 40px
+}
+.top-right-box>label{
+  color: #929aab;
+}
+.top-right-box{
+  float: right;
+  padding: 6px 12px;
+  font-weight:400;
+  margin-top: 20px;
+}
+.checkbox-control {
+  padding: 6px 12px;
+}

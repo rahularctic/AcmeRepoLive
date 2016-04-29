@@ -1,0 +1,41 @@
+.map_canvas {
+    float: right;
+    width: 300px;
+    height: 250px;
+    margin: 10px 20px 10px 0;
+    display: inline-block;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+#geocomplete { width: 300px}
+
+#sidebar {
+
+    position: fixed;
+}
+#page-wrap {position: relative; }
+
+.login-dialog .modal-dialog {
+    width: 300px;
+}
+
+input[type="text"]
+{
+    width:auto
+}
+input[type="number"]
+{
+    width:auto
+}
+input[type="textarea"]
+{
+    width:auto
+}
+.remove {
+    position: absolute;
+    right: 5px;
+}
